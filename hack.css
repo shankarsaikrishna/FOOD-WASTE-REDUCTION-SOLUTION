@@ -1,0 +1,44 @@
+* Reset default browser styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(190, 143, 22);
+}
+
+/* Header styles */
+header {
+    background-color: #2631d3;
+    color: #1d2261;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section styles */
+.info, .tips {
+    background-color: #a49828;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(31, 84, 159, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #147085;
+    color: #791953;
+}
